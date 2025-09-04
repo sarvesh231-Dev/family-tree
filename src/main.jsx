@@ -3,17 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-
-function TreePage() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-[#f5f0e6] text-[#1f2937] p-6">
-      <div className="text-center">
-        <h2 className="text-3xl font-bold">Family Tree</h2>
-        <p className="mt-3">Placeholder — visualization comes next.</p>
-      </div>
-    </div>
-  );
-}
+import TreePage from "./pages/TreePage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

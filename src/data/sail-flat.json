@@ -1,0 +1,110 @@
+[
+  { "id": "S1",  "name": "Yeaso Sail",  "gender": "M", "parents": [],     "children": ["S2", "S3"] },
+  { "id": "S2",  "name": "Apa Sail",    "gender": "M", "parents": ["S1"], "children": ["S4", "S5", "S6", "S7", "S8"] },
+  { "id": "S3",  "name": "Govind Sail", "gender": "M", "parents": ["S1"], "children": [] },
+
+  { "id": "S4",  "name": "Shaba (Zangdu) Sail", "gender": "M", "parents": ["S2"], "children": ["S9", "S10", "S11"] },
+  { "id": "S5",  "name": "Ram Sail",             "gender": "M", "parents": ["S2"], "children": [] },
+  { "id": "S6",  "name": "Sairu Sail",           "gender": "M", "parents": ["S2"], "children": [] },
+  { "id": "S7",  "name": "Vithoba Sail",         "gender": "M", "parents": ["S2"], "children": [] },
+  { "id": "S8",  "name": "Manago Sail",          "gender": "M", "parents": ["S2"], "children": [] },
+
+  { "id": "S9",  "name": "Apa Sail",     "gender": "M", "parents": ["S4"],  "children": ["S12", "S13"] },
+  { "id": "S10", "name": "Laxuman Sail", "gender": "M", "parents": ["S4"],  "children": ["S14", "S15", "S16"] },
+  { "id": "S11", "name": "Sadashiv Sail","gender": "M", "parents": ["S4"],  "children": ["S30", "S31", "S32", "S33", "S34"] },
+
+  { "id": "S12", "name": "Murari Sail",  "gender": "M", "parents": ["S9"],  "children": ["S17", "S18"] },
+  { "id": "S13", "name": "Hari Sail",    "gender": "M", "parents": ["S9"],  "children": ["S19", "S20"] },
+
+  { "id": "S17", "name": "Milind Sail",  "gender": "M", "parents": ["S12"], "children": ["S21", "S22"] },
+  { "id": "S18", "name": "Mayur Sail",   "gender": "M", "parents": ["S12"], "children": ["S23", "S24"] },
+
+  { "id": "S21", "name": "Om Sail",      "gender": "M", "parents": ["S17"], "children": [] },
+  { "id": "S22", "name": "Ojasvi Sail",  "gender": "F", "parents": ["S17"], "children": [] },
+
+  { "id": "S23", "name": "Ivaan Sail",   "gender": "M", "parents": ["S18"], "children": [] },
+  { "id": "S24", "name": "Annaya Sail",  "gender": "F", "parents": ["S18"], "children": [] },
+
+  { "id": "S19", "name": "Vidyadhar Sail","gender": "M", "parents": ["S13"], "children": [] },
+  { "id": "S20", "name": "Atmaram Sail", "gender": "M", "parents": ["S13"], "children": [] },
+
+  { "id": "S14", "name": "Apa Sail",     "gender": "M", "parents": ["S10"], "children": [] },
+  { "id": "S15", "name": "Shamba Sail",  "gender": "M", "parents": ["S10"], "children": ["S25", "S26"] },
+  { "id": "S16", "name": "Devappa Sail", "gender": "M", "parents": ["S10"], "children": ["S40", "S41", "S42", "S43"] },
+
+  { "id": "S25", "name": "Shivanand Sail","gender": "M", "parents": ["S15"], "children": ["S27", "S28"] },
+  { "id": "S26", "name": "Dinkar Sail",   "gender": "M", "parents": ["S15"], "children": ["S29", "S35", "S36"] },
+
+  { "id": "S27", "name": "Vinod Sail",    "gender": "M", "parents": ["S25"], "children": ["S37", "S38"] },
+  { "id": "S28", "name": "Vivek Sail",    "gender": "M", "parents": ["S25"], "children": ["S39", "S44"] },
+
+  { "id": "S37", "name": "Veena Sail",    "gender": "F", "parents": ["S27"], "children": [] },
+  { "id": "S38", "name": "Vaibhav Sail",  "gender": "M", "parents": ["S27"], "children": [] },
+
+  { "id": "S39", "name": "Shrutika Sail", "gender": "F", "parents": ["S28"], "children": [] },
+  { "id": "S44", "name": "Nikita Sail",   "gender": "F", "parents": ["S28"], "children": [] },
+
+  { "id": "S29", "name": "Pramod Sail",   "gender": "M", "parents": ["S26"], "children": ["S45", "S46"] },
+  { "id": "S35", "name": "Jagadish Sail", "gender": "M", "parents": ["S26"], "children": ["S47", "S48"] },
+  { "id": "S36", "name": "Sheela Sail",   "gender": "F", "parents": ["S26"], "children": [] },
+
+  { "id": "S45", "name": "Ashwini Sail",  "gender": "F", "parents": ["S29"], "children": [] },
+  { "id": "S46", "name": "Shreyas Sail",  "gender": "M", "parents": ["S29"], "children": [] },
+
+  { "id": "S47", "name": "Kuntika Sail",  "gender": "F", "parents": ["S35"], "children": [] },
+  { "id": "S48", "name": "Niyati Sail",   "gender": "F", "parents": ["S35"], "children": [] },
+
+  { "id": "S40", "name": "Prakash Sail",  "gender": "M", "parents": ["S16"], "children": ["S49", "S50"] },
+  { "id": "S41", "name": "Lakshman Sail", "gender": "M", "parents": ["S16"], "children": ["S51", "S52"] },
+  { "id": "S42", "name": "Anila Sail",    "gender": "F", "parents": ["S16"], "children": [] },
+  { "id": "S43", "name": "Sumanti Sail",  "gender": "F", "parents": ["S16"], "children": [] },
+
+  { "id": "S49", "name": "Pradeepchand Sail", "gender": "M", "parents": ["S40"], "children": ["S53", "S54"] },
+  { "id": "S50", "name": "Pratapchand Sail",  "gender": "M", "parents": ["S40"], "children": ["S55"] },
+
+  { "id": "S53", "name": "Darpan Sail",   "gender": "F", "parents": ["S49"], "children": [] },
+  { "id": "S54", "name": "Riddhi Sail",   "gender": "F", "parents": ["S49"], "children": [] },
+
+  { "id": "S55", "name": "Darsh Sail",    "gender": "M", "parents": ["S50"], "children": [] },
+
+  { "id": "S51", "name": "Pranjali Sail", "gender": "F", "parents": ["S41"], "children": [] },
+  { "id": "S52", "name": "Prajakta Sail", "gender": "F", "parents": ["S41"], "children": [] },
+
+  { "id": "S30", "name": "Shaba Sail",    "gender": "M", "parents": ["S11"], "children": [] },
+  { "id": "S31", "name": "Yeshwant Sail", "gender": "M", "parents": ["S11"], "children": ["S56", "S57"] },
+  { "id": "S32", "name": "Vaikunt Sail",  "gender": "M", "parents": ["S11"], "children": ["S60", "S61", "S62", "S63"] },
+  { "id": "S33", "name": "Kushali Sail",  "gender": "M", "parents": ["S11"], "children": ["S70"] },
+  { "id": "S34", "name": "Ratnakar Sail", "gender": "M", "parents": ["S11"], "children": ["S75"] },
+
+  { "id": "S56", "name": "Umakant Sail",  "gender": "M", "parents": ["S31"], "children": ["S58", "S59"] },
+  { "id": "S57", "name": "Ramesh Sail",   "gender": "M", "parents": ["S31"], "children": ["S64"] },
+
+  { "id": "S58", "name": "Vinod Sail",    "gender": "M", "parents": ["S56"], "children": [] },
+  { "id": "S59", "name": "Veena Sail",    "gender": "F", "parents": ["S56"], "children": [] },
+
+  { "id": "S64", "name": "Rohit Sail",    "gender": "M", "parents": ["S57"], "children": ["S65", "S66"] },
+
+  { "id": "S65", "name": "Rupesh Sail",   "gender": "M", "parents": ["S64"], "children": [] },
+  { "id": "S66", "name": "Rohini Sail",   "gender": "F", "parents": ["S64"], "children": [] },
+
+  { "id": "S60", "name": "Sadanand Sail", "gender": "M", "parents": ["S32"], "children": ["S67"] },
+  { "id": "S61", "name": "Kashinath Sail","gender": "M", "parents": ["S32"], "children": ["S68", "S69"] },
+  { "id": "S62", "name": "Sashikant Sail","gender": "M", "parents": ["S32"], "children": ["S71", "S72"] },
+  { "id": "S63", "name": "Kiran Sail",    "gender": "M", "parents": ["S32"], "children": [] },
+
+  { "id": "S67", "name": "Suraj Sail",    "gender": "M", "parents": ["S60"], "children": [] },
+
+  { "id": "S68", "name": "Archana Sail",  "gender": "F", "parents": ["S61"], "children": [] },
+  { "id": "S69", "name": "Akshata Sail",  "gender": "F", "parents": ["S61"], "children": [] },
+
+  { "id": "S71", "name": "Navjot Sail",   "gender": "M", "parents": ["S62"], "children": [] },
+  { "id": "S72", "name": "Ashweta Sail",  "gender": "F", "parents": ["S62"], "children": [] },
+
+  { "id": "S70", "name": "Deepak Sail",   "gender": "M", "parents": ["S33"], "children": ["S73", "S74"] },
+
+  { "id": "S73", "name": "Sarvesh Sail",  "gender": "M", "parents": ["S70"], "children": [] },
+  { "id": "S74", "name": "Siddhi Sail",   "gender": "F", "parents": ["S70"], "children": [] },
+
+  { "id": "S75", "name": "Sridhar Sail",  "gender": "M", "parents": ["S34"], "children": ["S76"] },
+  { "id": "S76", "name": "Samarth Sail",  "gender": "M", "parents": ["S75"], "children": [] }
+]
